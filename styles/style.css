@@ -147,7 +147,41 @@ html, body{
     width:100px;
     height:100px; 
 }
-
+.content-section{
+    width:100%;
+    height:100%;
+}
 .tour-row{
+    border-bottom:1px solid black;
+    padding-bottom:1em;
+    margin-bottom:1em;
+}
+
+.tour-row:last-child{
+    border-bottom:none;
+}
+
+.tour-item{
+    display:inline-block;
+    padding-right:.5em;
+}
+
+.tour-date{
+    color:#555;
+    font-weight:bold;
+    width:11%;
+}
+
+.tour-city{
+    width:24%;
     
+}
+
+.tour-arena{
+    
+    width:42%;
+}
+
+.tour-btn{
+    max-width:19%;
 }
