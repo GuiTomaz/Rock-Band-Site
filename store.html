@@ -4,145 +4,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
     <title>System of a Down | Store</title>
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="nav main-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="store.html">Store</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
-        <hr>
-        <h1>System of a down</h1>
+        <h1 class="band-name band-name-large">System of a down</h1>
     </header>
     <main>
-        <section>
-            <h2>Music</h2>
-            <div>
-                <div>
-                    <strong>Album 1</strong>
-                </div>
-                <img src="Assets/images/Hypnotize.jpg" height="300px" width="300px">
-                <div>
-                    <span>$7.29</span>
-                    <button role="button">ADD TO CART</button>
+        <section class="container content-section">
+            <h2 class="section-header">Music</h2>
+            <div class="shop-items">
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 1</span>
+                    <img class="shop-item-image" src="Assets/images/Hypnotize.jpg" height="300px" width="300px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$7.29</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
+
                 </div>
 
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 2</span>
+                    <img class="shop-item-image" src="Assets/images/mezmerize.jpg" height="300px" width="300px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$7.29</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
+
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 3</span>
+                    <img class="shop-item-image" src="Assets/images/TOXICITY.jpg" height="300px" width="300px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$7.00</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
+
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 4</span>
+                    <img class="shop-item-image" src="Assets/images/Steal-This-Album-1140x1140.jpg" height="300px"
+                        width="300px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$7.19</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
+
+                </div>
+        </section>
+
+        <section class="container content-section">
+            <h2 class="section-header">Merch</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">We Are Our Mountains Pullover Hoodie</span>
+                    <img class="shop-item-image" src="Assets/images/armenianstatueshoodie.jpg" height="300px"
+                        width="300px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$60.00</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
+
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">System Of A Down Logo Flip Beani</span>
+                    <img class="shop-item-image" src="Assets/images/logo_flip_beanie.jpg" height="300px" width="300px">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$30.00</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
+                </div>
             </div>
-
-            <div>
-                <div>
-                    <strong>Album 2</strong>
-                </div>
-                <img src="Assets/images/mezmerize.jpg" height="300px" width="300px">
-                <div>
-                    <span>$7.29</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
-
-            </div>
-
-            <div>
-                <div>
-                    <strong>Album 3</strong>
-                </div>
-                <img src="Assets/images/TOXICITY.jpg" height="300px" width="300px">
-                <div>
-                    <span>$7.00</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
-
-            </div>
-
-            <div>
-                <div>
-                    <strong>Album 4</strong>
-                </div>
-                <img src="Assets/images/Steal-This-Album-1140x1140.jpg" height="300px" width="300px">
-                <div>
-                    <span>$7.19</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
-
             </div>
         </section>
-        <section>
-            <h2>Merch</h2>
-            <div>
-                <div>
-                    <strong>We Are Our Mountains Pullover Hoodie</strong>
-                </div>
-                <img src="Assets/images/armenianstatueshoodie.jpg" height="300px" width="300px">
-                <div>
-                    <span>$60.00</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
+        <section class="container content-section">
+            <h2 class="section-header">Cart</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
 
-            </div>
+                <span class="cart-price cart-header cart-column">PRICE</span>
 
-            <div>
-                <div>
-                    <strong>System Of A Down Logo Flip Beani</strong>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="Assets/images/mezmerize.jpg" width="100">
+                        <span class="cart-item-title">Album Mezmerize</span>
+                    </div>
+                    <span class="cart-price cart-column">$9.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" role="button">REMOVE</button>
+                    </div>
                 </div>
-                <img src="Assets/images/logo_flip_beanie.jpg" height="300px" width="300px">
-                <div>
-                    <span>$30.00</span>
-                    <button role="button">ADD TO CART</button>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="Assets/images/logo_flip_beanie.jpg" width="100">
+                        <span class="cart-item-title">System Of A Down Logo Flip Beani</span>
+                    </div>
+                    <span class="cart-price cart-column">$30.00</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="2">
+                        <button class="btn btn-danger" role="button">REMOVE</button>
+                    </div>
                 </div>
-
             </div>
-        </section>
-        <section>
-            <h2>Cart</h2>
-            <div>
-                <strong>ITEM</strong>
-                &lt;&gt;
-                <strong>PRICE</strong>
-                &lt;&gt;
-                <strong>QUANTITY</strong>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$49.99</span>
             </div>
-            <div>
-                <img src="Assets/images/mezmerize.jpg" width="100">
-                <span>Album Mezmerize</span>
-                &lt;&gt;
-                <span>$9.99</span>
-                &lt;&gt;
-                <input type="number" value="1">
-                <button role="button">REMOVE</button>
-            </div>
-            <div>
-                <img src="Assets/images/logo_flip_beanie.jpg" width="100">
-                <span>System Of A Down Logo Flip Beani</span>
-                &lt;&gt;
-                <span>$30.00</span>
-                &lt;&gt;
-                <input type="number" value="2">
-                <button role="button">REMOVE</button>
-            </div>
-            <hr>
-            <div>
-                <strong>Total</strong>
-                <span>$49.99</span>
-            </div>
-            <div>
-                <button role="button">PURCHASE</button>
-            </div>
+            <button class="btn btn-primary btn-purchase" role="button">PURCHASE</button>
         </section>
     </main>
-    <footer>
-        <h3>System of a Down</h3>
-        <ul>
-            <li><a href="https://www.youtube.com/channel/UCvtZDkeFxMkRTNqfqXtxxkw" target="_blank"><img
-                        src="Assets/images/youtulogo.png"></a></li>
-            <li><a href="https://open.spotify.com/artist/5eAWCfyUhZtHHtBdNk56l1?si=92PeQJlTRgaH93q0TyUlaw"
-                    target="_blank"><img src="Assets/images/spotlogo.png"></a></li>
-            <li><a href="https://www.facebook.com/systemofadown" target="_blank"><img
-                        src="Assets/images/facelogo.png"></a></li>
-        </ul>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="band-name">System of a Down</h3>
+            <ul class="nav footer-nav">
+                <li><a href="https://www.youtube.com/channel/UCvtZDkeFxMkRTNqfqXtxxkw" target="_blank"><img
+                            src="Assets/images/youtulogo.png"></a></li>
+                <li><a href="https://open.spotify.com/artist/5eAWCfyUhZtHHtBdNk56l1?si=92PeQJlTRgaH93q0TyUlaw"
+                        target="_blank"><img src="Assets/images/spotlogo.png"></a></li>
+                <li><a href="https://www.facebook.com/systemofadown" target="_blank"><img
+                            src="Assets/images/facelogo.png"></a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 
